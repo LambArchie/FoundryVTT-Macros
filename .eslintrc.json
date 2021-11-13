@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base",
+        "@typhonjs-fvtt/eslint-config-foundry.js"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "script",
+        "ecmaFeatures": {
+            "globalReturn": true
+        }
+    },
+    "rules": {
+        "no-shadow": ["error", { "builtinGlobals": true, "hoist": "all", "allow": ["event"] }],
+        "semi": [2, "never"]
+    },
+    "globals": {
+        "args": "readonly"
+    }
+}

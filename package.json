@@ -1,0 +1,26 @@
+{
+  "name": "@lambarchie/foundryvtt-macros",
+  "version": "0.0.1",
+  "description": "My custom FoundryVTT macros",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint macros"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/LambArchie/foundryvtt-macros"
+  },
+  "keywords": [
+    "foundryvtt",
+    "macros",
+    "foundryvtt-macros"
+  ],
+  "author": "Archie Lamb",
+  "license": "ISC",
+  "devDependencies": {
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
