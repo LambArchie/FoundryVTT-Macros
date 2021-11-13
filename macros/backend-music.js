@@ -1,3 +1,4 @@
+// Requires Advanced Macros and this macro set to run as a GM
 const type = args[0]
 const details = args[1]
 const playlist = game.collections.getName('Playlists').getName(details)

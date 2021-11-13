@@ -1,3 +1,4 @@
+// Requires backend-music to work
 let availablePlaylists = ''
 let currentlyPlaying = ''
 let toChange;
